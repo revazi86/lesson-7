@@ -6,6 +6,23 @@
 .wrapper{
 	background-image: url(../img/sky.jpeg);
 	background-size: cover;
-	height: 1000px;
+	height: 500px;
 	width: 100%;
+	background position: center;
+	position: relative;
 }
+.plane{
+	height:20px;
+	width:10%;
+	background-image: url(../img/plane-icon.jpg);
+    bottom:30px;
+    left:0;
+    position:absolute;
+    z-index: 10;
+    animation-name: plane 5s ease infinite;
+
+@keyframes{
+	
+}
+		
+
